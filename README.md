@@ -12,3 +12,6 @@ git remote -v
 # Comando para configurar a ssh-keygen
 ssh-keygen -> gera a key
 cat C:\Users\leandropaulino/.ssh/id_rsa.pub -> abre o arquivo no terminal
+
+# Comando para criar um projeto Django
+django-admin startproject core .
