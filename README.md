@@ -15,3 +15,6 @@ cat C:\Users\leandropaulino/.ssh/id_rsa.pub -> abre o arquivo no terminal
 
 # Comando para criar um projeto Django
 django-admin startproject core .
+
+# Comando para criar um app Django
+python manage.py startapp recipes(receitas)
