@@ -9,7 +9,9 @@ def home(request):
 
 
 def contact(request):
-    return HttpResponse('<h1>Contato</h1>')
+    return render(request, 'recipes/contact/contact.html', context={
+        'phone': '(11)97673-0968'
+    })
 
 
 def about(request):
