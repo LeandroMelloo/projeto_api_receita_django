@@ -1,5 +1,6 @@
-from django.test import TestCase
 from django.contrib.auth import get_user_model
+from django.test import TestCase
+
 
 class ModelTests(TestCase):
 
@@ -24,4 +25,4 @@ class ModelTests(TestCase):
 
     def test_new_user_invalid_email(self):
         """Test creating user with no email raises error"""
-        
+        pass
