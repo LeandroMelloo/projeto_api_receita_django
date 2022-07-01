@@ -21,3 +21,12 @@ O Dockerfile é usado para construir nossa imagem, que contém um mini sistema o
 
 # Linting
 Isso mesmo! Linting é usado para garantir que o código seja formatado corretamente. Ele destaca problemas como espaçamento de tabulação e comprimentos de linha inválidos.
+
+# GitHub Actions
+- Ferramenta de automação para CI/CD
+- Ferramenta similar ao Travis-CI, GitLab CI/CD, Jenkins
+- Simplificando, permite que você execute tarefas sempre que seu código for alterado
+- Permite automatizar determinadas tarefas
+
+# Docker Hub
+- O Docker Hub é uma plataforma que permite extrair imagens de base do Docker para sua máquina local
