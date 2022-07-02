@@ -30,3 +30,6 @@ Isso mesmo! Linting é usado para garantir que o código seja formatado corretam
 
 # Docker Hub
 - O Docker Hub é uma plataforma que permite extrair imagens de base do Docker para sua máquina local
+
+# Configuração Docker Hub e Git Hub
+- Token e Username para logar no Docker Hub deve ser inserido no Github
