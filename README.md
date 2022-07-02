@@ -28,8 +28,18 @@ Isso mesmo! Linting é usado para garantir que o código seja formatado corretam
 - Simplificando, permite que você execute tarefas sempre que seu código for alterado
 - Permite automatizar determinadas tarefas
 
+Quais são os usos comuns do GitHub Actions?
+- Manipulação de implantação, linting e testes de unidade
+
+Por que precisamos autenticar com o Docker Hub?
+- Porque há um limite para o número de puxadas de imagem que você pode fazer.
+- Sim, para garantir que possamos usar nossos 200 pulls gratuitos, precisamos nos autenticar.
+
 # Docker Hub
 - O Docker Hub é uma plataforma que permite extrair imagens de base do Docker para sua máquina local
 
 # Configuração Docker Hub e Git Hub
 - Token e Username para logar no Docker Hub deve ser inserido no Github
+
+# Django Testing
+- python manage.py test
