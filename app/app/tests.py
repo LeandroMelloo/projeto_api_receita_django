@@ -1,9 +1,9 @@
-"""
-Teste simples
-"""
+"""Teste simples"""
+
 from django.test import SimpleTestCase
 
 from app import calcular
+
 
 class CalcularTestCase(SimpleTestCase):
     """Modulo de calculo e teste"""

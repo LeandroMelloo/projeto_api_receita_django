@@ -13,8 +13,10 @@ docker-compose run app sh -c "python manage.py test && flake8"
 
 docker-compose build
 docker-compose run --rm app sh -c "flake8"
-docker-compose run --rm app sh -c "django-admin startproject app ."
+docker-compose run --rm app sh -c "django-admin startproject app ." (Cria um projeto Django)
 docker-compose up
+docker-compose down (Limpa as imagens docker)
+docker-compose run --rm app sh -c "python manage.py startapp core" (Cria um app no Django)
 
 # Dockerfile
 O Dockerfile é usado para construir nossa imagem, que contém um mini sistema operacional Linux com todas as dependências necessárias para rodar nosso projeto.
