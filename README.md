@@ -24,7 +24,7 @@ docker-compose run --rm app sh -c "python manage.py wait_for_db && python manage
 docker-compose run --rm app sh -c "python manage.py createsuperuser"
 
 # Dockerfile
-O Dockerfile é usado para construir nossa imagem, que contém um mini sistema operacional Linux com todas as dependências necessárias para rodar nosso projeto.
+O Dockerfile é usado para construir nossa imagem, que contém um mini sistema operacional Linux com todas as dependências necessárias para rodar nosso projeto
 
 # Linting
 Isso mesmo! Linting é usado para garantir que o código seja formatado corretamente. Ele destaca problemas como espaçamento de tabulação e comprimentos de linha inválidos.
